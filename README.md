@@ -24,7 +24,7 @@ if port_rate != 4800:
 It will close the port and exit the program.
 
 ### Display mode
-#### Default Display Mode
+#### **Default Display Mode**
 "Color Wipe" 
 Each LED on the ring will light up in the selected color and remain lit.
 
@@ -56,7 +56,7 @@ Even index of the LED ring will light up in white and remain lit.
 "Individual Blink" 
 Each LED on the ring will light up by the index order.
 
-#### Loop Display Mode
+#### **Loop Display Mode**
 "Short loop time" 
 The left and right parts of the LED ring will turn on in sequence with a short time interval (50 milliseconds).
 
@@ -73,12 +73,16 @@ The loop time can be change in Arduino code global variables declare part:
 #define LONG_DELAY_TIME 200
 ```
 
-#### Arbitrary Display Mode
-"Apply" The LED with the corresponding check box selected will light up.
-"Reset" All LED will be off and all check boxes will be set to unchecked state.
+#### **Arbitrary Display Mode**
+"Apply" 
+The LED with the corresponding check box selected will light up.
+
+"Reset"
+All LED will be off and all check boxes will be set to unchecked state.
 
 # Author
 - ## Yiheng Chang
 University of Nottingham, Electronic and Computing Engineering
 **Socials**: [Github](http://www.github.com/Leopeter51212) 
+
 **Contact information**:Email: slyyc7@gmail.com
