@@ -82,7 +82,8 @@ All LED will be off and all check boxes will be set to unchecked state.
 
 # Author
 - ## Yiheng Chang
-University of Nottingham, Electronic and Computing Engineering
+University of Nottingham, Electronic and Computing Engineering student
+
 **Socials**: [Github](http://www.github.com/Leopeter51212) 
 
 **Contact information**:Email: slyyc7@gmail.com
