@@ -81,7 +81,7 @@ The LED with the corresponding check box selected will light up.
 All LED will be off and all check boxes will be set to unchecked state.
 
 #### **Change brightness**
-If you want to change the brightness of the LED rings, please change it in the Arduino code global variables declare part:
+If you want to change the brightness of the LED ring, please change it in the Arduino code global variables declare part:
 ```
 #define BRIGHTNESS  50
 ```
