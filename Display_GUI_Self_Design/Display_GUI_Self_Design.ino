@@ -54,7 +54,7 @@ void loop() {
       half_on(strip.Color(  255,  255,  255), 0, 8, DELAY_TIME);             // turn left hand side LED on
     }
     if(var=='7'){
-      half_on(strip.Color(  0,  0,  0), 8, 15, DELAY_TIME);             // turn right hand side LED on
+      half_on(strip.Color(  255,  255,  255), 8, 15, DELAY_TIME);             // turn right hand side LED on
     }
     if(var=='8'){
       odd_Blink(DELAY_TIME);                   // odd index blink

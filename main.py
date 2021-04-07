@@ -572,7 +572,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.send_LED_index.append('q')
 
     def small_on(self):
-        print(self.send_LED_index)
         self.enable_all()
 
         port_name = str(self.PortNumber_comboBox.currentText())
@@ -630,7 +629,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     def reset_small_ring(self):
         self.send_LED_index.clear()
-        print(self.send_LED_index)
         # enable all the function including the last call
         self.enable_all()
 
